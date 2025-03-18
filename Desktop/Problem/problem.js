@@ -492,3 +492,63 @@ function evaluateCondition(array1, array3, array2) {
     }
 }
 evaluateCondition(x, z, y);
+
+//Problem 85
+let x = [0,1,2,3,4,5];
+function func1(y){
+  for (let i=0; i<y.length;i++){
+    console.log(y[i]);
+  }
+}
+func1(x);
+
+//Problem 86
+let x = [0,1,2,3,4,5];
+function func1(y){
+  for (let i=y.length; i>=0;i--){
+    console.log(y[i]);
+  }
+}
+func1(x);
+
+//Problem 87
+let x = [0,1,2,3,4,5];
+function func1(y){
+  for (let i=y.length; i>=0;i=i-2){
+    console.log(y[i]);
+  }
+}
+func1(x);
+
+//Problem 88
+let x = [0,1,2,3,4,5];
+function func1(y){
+  for (let i=2; i<y.length;i=i+3){
+    console.log(y[i]);
+  }
+}
+func1(x);
+
+//Problem 89
+let x = [0,1,2,3,4,5];
+function func1(y){
+  for (let i=0; i<y.length;i++){
+    if (i%2==1){
+        console.log(y[i])
+    };
+  };
+};
+func1(x);
+
+//Problem 90
+let x = [0,1,2,3,4,5];
+function func1(y){
+  let z = 0;
+  for (let i=0; i<y.length;i++){
+    if (i%2==0){
+        z += y[i];
+    }
+  }
+  console.log(z)
+}
+func1(x);
