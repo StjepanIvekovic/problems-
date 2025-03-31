@@ -7,7 +7,7 @@ console.log(x,y);
 //Krivo
 // Hint: prva linija je let x=5, y=6; nakon toga pišeš neku logiku koja će zamjenit vrijednosti u varijablama
 //       Ne radis ponovno assignment u varijable x i y nakon te prve linije nego nekim drugim naredbama 
-//       zamjeniš vrijednost tako da bude y=5 and x=6
+//       zamjeniš vrijednost tako da u y bude 5 a u x bude 6
   
 // Assign a variable to a value of 12. Write code that will multiply the value of this variable by 5
 // and store the result back in the same variable.
