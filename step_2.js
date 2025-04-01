@@ -1,9 +1,11 @@
 // Assign two variables to values 5 and 6. Write code logic that will swap values in 
 // these two variables. (without using number 5 and 6 again)
 
-  let x = 17 % 6; 
-let y = 18 / 3; 
-console.log(x,y);
+let x = 5; 
+let y = 6;  
+ y = x; 
+ x = y + 1; 
+ console.log(x,y); 
 //Krivo
 // Hint: prva linija je let x=5, y=6; nakon toga pišeš neku logiku koja će zamjenit vrijednosti u varijablama
 //       Ne radis ponovno assignment u varijable x i y nakon te prve linije nego nekim drugim naredbama 
@@ -12,9 +14,9 @@ console.log(x,y);
 // Assign a variable to a value of 12. Write code that will multiply the value of this variable by 5
 // and store the result back in the same variable.
 
- let value = 12;  
-let multiplyVariable = value * 5;
-console.log(multiplyVariable);
+ let value = 12; 
+ value *=5;   
+console.log(value); 
 // Krivo
 // Hint: piše "and store the result back in the same variable". koristi operator *=
 
@@ -29,11 +31,14 @@ console.log(a === b);
  a = 25; 
 console.log(a === b); 
 
-b = 25; 
+a = number; 
 console.log(a === b); 
 // Točno, ali ja sam krivo zado zadatak :)
 // Umjesto zadnje rečenice "Each variable can be assigned at most 2 times." Treba biti
 // "Variable a can be assigned 2 times, and variable b only once." Probaj tak rjesit.
+
+/* Ovo nesto ne stima. Ako b smijemo koristit jednom to je ok, ali a 2 puta, a tip i value nam mora bit isti nema sanse 
+da ovo bude tocno osim ako umjesto a = number opet stavimo broj 10 i da to ispise(usput a = number izbacuje undefined jer ocito nije definirano, to je bilo cisto da probam sa tipovima) */
 
 
 // U Const poglavlju pise ovo "It does not define a constant value. It defines a constant 
